@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    align-self: center;
+    justify-content: center;
+}
+.navbar{
+    background: linear-gradient( to right, rgba(4, 77, 32),yellow)  !important;
+}
+.navbar li a{
+	color: white !important;
+}
+.navbar li a:hover{
+	color: black !important;
+}
+.carousel-item{
+	background: no-repeat center center scroll;
+	background-size: cover;
+}
+.carousel-caption{   
+	position: absolute;
+	top: 5%;  
+}
+.navbar li a:hover{
+    color: black !important;
+}
+.chair a:hover{
+    color: green;
+}
+.chair a{
+    color: black;
+}
+.main{
+    margin: 0 auto;
+    display: flex;
+}
+.box{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.40), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 9%;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+.boxticket{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.40), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 6%;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+.boxupdate{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.40), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 2%;
+    height: 80%;
+    width: 95%;
+    margin: auto;
+    font-size: large;
+    margin-bottom: 25px;
+}
+.list{
+    font-size: large;
+    border: none;
+    background: rgb(27, 77, 27);
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+.title{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.titleupdate{
+    font-size: large;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.next{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.infor{
+    width: 100%;
+}
+.lable{
+    width: 40%;
+    height: 100%;
+}
+.value{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.textlable{
+    text-align: right;
+    float: left;
+}
+.textvalue{
+    width: 100%;
+    text-align: left;
+    float: right;
+}
+.update{
+    margin-left:auto ;
+    margin-right: 15px;
+}
+
+
+

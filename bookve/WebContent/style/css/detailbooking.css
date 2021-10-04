@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    align-self: center;
+    justify-content: center;
+}
+.navbar{
+    background: linear-gradient( to right, rgba(4, 77, 32),yellow)  !important;
+}
+.navbar li a{
+	color: white !important;
+}
+.navbar li a:hover{
+	color: black !important;
+}
+.carousel-item{
+	background: no-repeat center center scroll;
+	background-size: cover;
+}
+.carousel-caption{   
+	position: absolute;
+	top: 5%;  
+}
+.navbar li a:hover{
+    color: black !important;
+}
+.container{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1120px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+ 
+}
+.box::after{
+    content: '';
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+.box p{
+    font-size: 14px;
+}
+.box h2{
+    margin: 0;
+    font-size: 20px;
+}
+.box img{
+    display: inline-block;
+    width: 30px;
+}
+.btn {
+    margin-left: -8px;
+}
+.doilai{
+	padding-top: 38px;
+	text-align: center;
+}
+.doilaibtn{
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.diadiemtrai{
+	padding-right: 0;
+}
+.diadiemphai{
+	padding-left: 0;
+}
+.searchdiadiem{
+	margin: 0;
+}	
+@media (max-width: 991px)
+{
+	.doilaibtn,
+	.diadiemtrai,.diadiemphai{
+		padding: 0px;
+	}
+	.slides .carousel-inner .carousel-item{
+		display: none;
+		
+	}
+	.carousel-inner{
+		padding: 20px;
+	}
+	
+}
+@media (max-width: 767px)
+{
+	
+	.doilai{
+		padding: 0px;
+	}
+	.carousel-inner{
+		height: 600px;
+		background: url(/Images/ban1.jpg);
+	}
+	.carousel-inner .img-fluid{
+        display: none;
+        
+    }
+    .boxchinh{
+        transform: translateY(50%);
+    }
+}
+
+
+

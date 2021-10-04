@@ -1,0 +1,75 @@
+#light{
+    color: yellow;
+    font-size: larger;
+}
+#typebus{
+    color: white;
+    background-color: green;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+}
+#inforbus{
+    margin:auto;
+    background-color: #b6fcb6;
+    color: black;
+}
+#driver{
+    color:#006400;
+    font-size:x-large;
+    float:left;
+    margin-left: 5%;
+    margin-top: 2%
+}
+#door{
+    color: red;
+    font-size:x-large;
+    float:right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+#textdriver{
+    float: left;
+    margin-left: 5%;
+}
+#textdoor{
+    float: right;
+    margin-right: 5%
+}
+.Frontrow{
+    height: 155px;
+}
+.Centerrow{
+    height: 205px;
+}
+.Lastrow{
+    height: 225px;
+}
+.LSP{
+    height: 78px;
+}
+.trai{
+    width: 30%;
+    float: left;
+}
+.giua{
+    width: 40%;
+    float: left;
+}
+.giua{
+    height: 100%;
+}
+.phai{
+    width: 30%;
+    float: right;
+}
+.ghele{
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+.ghechan{
+    width: 40%;
+    text-align: left;
+    float: right;
+}
+    
